@@ -1,0 +1,68 @@
+.dashboard {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.dashboardWrapper,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dashboardWrapper {
+  overflow: hidden;
+}
+.frameParent {
+  flex: 1;
+  gap: var(--gap-base);
+}
+.iconssearch {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.searchFeaturesTutorials {
+  position: relative;
+  line-height: 22px;
+}
+.iconssearchParent {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--black-95);
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  font-size: var(--body-1-regular-size);
+  color: var(--black-50);
+}
+.component2Wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.backArrowfalseHelptrueS {
+  background-color: var(--black-100);
+  border-bottom: 1px solid var(--black-85);
+  box-sizing: border-box;
+  width: 1216px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-13xl);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--heading-h5-size);
+  color: var(--black-12);
+  font-family: var(--heading-h5);
+}

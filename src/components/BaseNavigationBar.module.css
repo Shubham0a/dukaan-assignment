@@ -1,0 +1,177 @@
+.companyIconImageChild {
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--black-100);
+  width: 40px;
+  height: 40px;
+  z-index: 0;
+}
+.nishyan,
+.visitStore {
+  align-self: stretch;
+  position: relative;
+}
+.nishyan {
+  line-height: 22px;
+  font-weight: 500;
+}
+.visitStore {
+  font-size: var(--sub-body-medium-size);
+  text-decoration: underline;
+  line-height: 16px;
+  font-family: var(--heading-h5);
+  opacity: 0.8;
+}
+.nishyanParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.imageIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 0.5px;
+  left: 0.5px;
+  border-radius: var(--br-9xs);
+  width: 39px;
+  height: 39px;
+  object-fit: cover;
+  z-index: 2;
+}
+.boldChevronDown {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.companyIconImage {
+  width: 192px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-xs);
+}
+.navbarIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.home {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.basenavButton {
+  border-radius: var(--br-9xs);
+  width: 208px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.navbarIcon1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  opacity: 0.8;
+}
+.navTop,
+.pages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pages {
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--body-2-medium-size);
+}
+.navTop {
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.outlineWallet {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.outlineWalletWrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs);
+}
+.availableCredits {
+  position: relative;
+  line-height: 16px;
+  opacity: 0.8;
+}
+.div {
+  position: relative;
+  font-size: var(--sub-title-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+}
+.availableCreditsParent,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.basenavBottom,
+.basenavigationBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.basenavBottom {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkslategray);
+  width: 192px;
+  align-items: flex-start;
+  padding: var(--padding-7xs) var(--padding-xs);
+  font-size: var(--sub-body-medium-size);
+}
+.basenavigationBar {
+  background-color: var(--secondary-navbar);
+  width: 224px;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-3xs);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--body-1-regular-size);
+  color: var(--black-100);
+  font-family: var(--sub-title-regular);
+  flex: 1;
+}

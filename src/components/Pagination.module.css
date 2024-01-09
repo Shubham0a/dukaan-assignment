@@ -1,0 +1,32 @@
+.div {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.paginationComponents {
+  border-radius: var(--br-9xs);
+  width: 28px;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+}
+.pagination,
+.paginationComponentsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.pagination {
+  align-items: center;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--body-2-medium-size);
+  color: var(--black-30);
+  font-family: var(--sub-title-regular);
+}

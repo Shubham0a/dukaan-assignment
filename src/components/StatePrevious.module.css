@@ -1,0 +1,42 @@
+.outlinedChevronRight,
+.outlinedSettings {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.outlinedSettings {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+.outlinedChevronRight {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.sampleText {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.buttonText,
+.stateprevious {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stateprevious {
+  border-radius: var(--br-9xs);
+  background-color: var(--black-100);
+  border: 1px solid var(--black-85);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-xs) var(--padding-7xs)
+    var(--padding-7xs);
+  gap: var(--gap-7xs);
+  text-align: center;
+  font-size: var(--body-2-medium-size);
+  color: var(--black-30);
+  font-family: var(--sub-title-regular);
+}

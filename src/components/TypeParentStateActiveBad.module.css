@@ -1,0 +1,28 @@
+.navbarIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.home {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.typeparentStateactiveBad {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  width: 208px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--body-2-medium-size);
+  color: var(--black-100);
+  font-family: var(--sub-title-regular);
+}

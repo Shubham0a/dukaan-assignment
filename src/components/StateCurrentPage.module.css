@@ -1,0 +1,21 @@
+.div {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.statecurrentPage {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-blue);
+  width: 28px;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--body-2-medium-size);
+  color: var(--black-100);
+  font-family: var(--sub-title-regular);
+}

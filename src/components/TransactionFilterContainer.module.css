@@ -1,0 +1,316 @@
+.placeholderText {
+  position: relative;
+  line-height: 24px;
+}
+.outlinedFilters {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.filters {
+  border-radius: var(--br-9xs);
+  background-color: var(--black-100);
+  border: 1px solid var(--black-85);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-xs);
+  gap: var(--gap-7xs);
+}
+.outlinedSort {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.buttonSort,
+.groupChild {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--black-85);
+}
+.buttonSort {
+  background-color: var(--black-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-xs);
+  gap: var(--gap-7xs);
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  width: 36px;
+  height: 36px;
+}
+.iconsdownload {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+}
+.rectangleParent {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+.frameGroup {
+  justify-content: flex-end;
+  gap: var(--gap-xs);
+}
+.filtersParent,
+.frameGroup,
+.inputSearchBoxParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.filtersParent {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.inputSearchBoxParent {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.controlsCheckBox,
+.triangleIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+.triangleIcon {
+  width: 8px;
+  height: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.textIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.endPoint {
+  position: relative;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+}
+.resizableSpacer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-71xl);
+  opacity: 0;
+  margin-top: -1px;
+}
+.cellHeaderRow,
+.cellHeaderRow1 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cellHeaderRow {
+  display: flex;
+}
+.cellHeaderRow1 {
+  display: none;
+}
+.triangleIcon2 {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cellHeaderRow3 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.resizableSpacer4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-71xl);
+  opacity: 0;
+}
+.outlinedInfo {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.textIconParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  margin-top: -1px;
+}
+.frameParent,
+.header,
+.textIconParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.header {
+  border-radius: var(--br-9xs);
+  background-color: var(--black-95);
+  width: 1128px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-xs);
+  font-size: var(--sub-title-regular-size);
+  color: var(--black-30);
+  font-family: var(--sub-title-regular);
+}
+.column01,
+.resizableSpacer5 {
+  display: flex;
+  align-items: flex-start;
+}
+.resizableSpacer5 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-357xl);
+  opacity: 0;
+  margin-top: -1px;
+}
+.column01 {
+  flex: 1;
+  background-color: var(--black-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 0;
+}
+.tagStatusChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--secondary-green);
+  width: 10px;
+  height: 10px;
+}
+.accepted {
+  position: relative;
+  line-height: 20px;
+}
+.tagStatus {
+  gap: var(--gap-7xs);
+}
+.tableType,
+.tagStatus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column02 {
+  flex: 1;
+  background-color: var(--black-100);
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+}
+.resizableSpacer7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-101xl);
+  opacity: 0;
+  margin-top: -1px;
+}
+.column03,
+.column05,
+.column051 {
+  flex: 1;
+  background-color: var(--black-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 2;
+}
+.column05,
+.column051 {
+  align-items: flex-end;
+  z-index: 3;
+}
+.column051 {
+  z-index: 4;
+}
+.dataTable,
+.frameWrapper,
+.paginationWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dataTable {
+  background-color: var(--black-100);
+  width: 1128px;
+  height: 48px;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-21xl);
+}
+.frameWrapper,
+.paginationWrapper {
+  flex-direction: column;
+}
+.frameWrapper {
+  justify-content: center;
+}
+.dataTableParent,
+.template3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dataTableParent {
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.template3 {
+  border-radius: var(--br-5xs);
+  background-color: var(--black-100);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-5xl);
+  text-align: left;
+  font-size: var(--body-2-medium-size);
+  color: var(--black-12);
+  font-family: var(--heading-h5);
+}

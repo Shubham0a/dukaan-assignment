@@ -1,0 +1,37 @@
+.boldSearch {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.orderIdPhone {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.boldCross {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.basesearchField {
+  border-radius: var(--br-9xs);
+  background-color: var(--black-100);
+  border: 1px solid var(--black-85);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--body-2-medium-size);
+  color: var(--black-60);
+  font-family: var(--heading-h5);
+  flex: 1;
+}

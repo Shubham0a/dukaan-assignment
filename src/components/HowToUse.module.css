@@ -1,0 +1,22 @@
+.iconsOutlinedInfo {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.howToUse1 {
+  position: relative;
+  line-height: 16px;
+}
+.howToUse {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--caption-regular-size);
+  color: var(--black-30);
+  font-family: var(--heading-h5);
+}

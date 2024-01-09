@@ -1,0 +1,77 @@
+.thumbnailIcon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  display: none;
+}
+.controlsCheckBox,
+.outlinedWhatsapp {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+.outlinedWhatsapp {
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sampleData {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.italics {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  line-height: 16px;
+  display: none;
+  color: var(--black-12);
+}
+.iconTextItalics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--body-2-medium-size);
+}
+.more,
+.thirdLine {
+  position: relative;
+  line-height: 16px;
+  display: none;
+}
+.more {
+  color: var(--black-30);
+  width: 90px;
+}
+.thirdLine {
+  text-decoration: underline;
+  font-weight: 500;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.checkboxText,
+.typelink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.typelink {
+  overflow: hidden;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--caption-regular-size);
+  color: var(--primary-blue);
+  font-family: var(--heading-h5);
+}
